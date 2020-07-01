@@ -7,4 +7,5 @@ For Arch-based - blackarch_repo_install
 # the author of these programs is not responsible for system failure if used improperly
 # How to use
 ```bash
-chmod +x kalilin
+chmod +x kalilinux_repo_install (blackarch_repo_install)
+./kalilinux_repo_install (blackarch_repo_install)
