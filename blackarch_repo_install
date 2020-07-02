@@ -1,8 +1,2 @@
-mkdir BlackArch
-cd BlackArch
-curl -O https://blackarch.org/strap.sh 
-chmod +x strap.sh
-sudo ./strap.sh
+sudo curl https://blackarch.org/strap.sh | sh
 sudo pacman -Syyu
-cd ..
-rm -rf BlackArch
