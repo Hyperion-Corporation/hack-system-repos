@@ -7,4 +7,5 @@
  sudo apt update
  sudo sh -c "echo 'Package: *'>/etc/apt/preferences.d/kali.pref; echo 'Pin: release a=kali-rolling'>>/etc/apt/preferences.d/kali.pref; echo 'Pin-Priority: 50'>>/etc/apt/preferences.d/kali.pref"
  sudo apt update
- echo 'To install a programm "sudo aptitude install -t kali-rolling NAME-PACKAGE"' > README_ABOUT_KALI_REPOS.txt
+ echo 'To install a programm "sudo apt install -t kali-rolling NAME-PACKAGE"' > README_ABOUT_KALI_REPOS.txt
+ nano README_ABOUT_KALI_REPOS.txt
