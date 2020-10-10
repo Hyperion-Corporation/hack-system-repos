@@ -1,3 +1,8 @@
+ if [[ $EUID -ne 0 ]]; then
+    echo -e "\033[31mThis script must be run as root"
+    exit 1
+ fi
+ 
  sudo apt update && sudo apt full-upgrade -y
  sudo apt update
  sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list.d/kali.list"
